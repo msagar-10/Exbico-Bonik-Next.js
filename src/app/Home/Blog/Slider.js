@@ -19,7 +19,7 @@ export default function Sliders() {
         slidesPerView={3}
         spaceBetween={30}
         loop={true}
-        // autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 4000 }}
         modules={[Navigation, Autoplay]}
         navigation={{
           nextEl: ".swiper-button-next",

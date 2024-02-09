@@ -45,7 +45,7 @@ export default function Sliders() {
           clickable: true,
         }}
         loop={true}
-        // autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 4000 }}
         modules={[Autoplay, Pagination]}
         className="testimnial-slider"
       >
